@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+
+  <title>Browse books</title>
+  <meta name="description" content="My CSS+JS OCR Test">
+
+  <link rel="stylesheet" href="/static/base.css">
+</head>
+
+<body>
+
+<ol>
+    {% for book in LBooks %}
+        <a href="/{{ book.replace(' ', '_') }}/">{{ book }}</a>
+    {% endfor %}
+</ol>
+
+</body>
+</html>
+

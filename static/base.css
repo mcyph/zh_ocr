@@ -1,0 +1,21 @@
+.image_cont {
+    margin: 10px auto;
+    position: relative;
+}
+
+.text_cont {
+    position: absolute;
+    background: white;
+    white-space: nowrap;
+    line-height: 1.5em;
+}
+
+.clip_img, .simp_pop {
+    position: absolute;
+    box-shadow: 0px 1px 15px #aaa;
+    z-index: 1;
+}
+
+.simp_pop {
+    background: white;
+}
